@@ -123,7 +123,7 @@ contract MyToken is ERC20Interface, Owned {
   // ------------------------------------------------------------------------
   constructor() public {
     symbol = "MYT";
-    name = "Freediving Token";
+    name = "MyToken Token";
     decimals = 18;
     _totalSupply = 100000000 * 10**uint(decimals);
     balances[owner] = _totalSupply;
